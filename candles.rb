@@ -1,4 +1,4 @@
-candles = [3, 2, 1, 3]
+candles = [37, 26, 11, 3]
 index = 0
 tall_candle = 0
 count = 0
