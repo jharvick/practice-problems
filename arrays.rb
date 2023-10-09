@@ -10,7 +10,7 @@
 
 # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
 
-rebels = ["ezra", "kannan", "chopper"]
+# rebels = ["ezra", "kannan", "chopper"]
 
-rebels[2] = rebels[2].upcase
-p rebels
+# rebels[2] = rebels[2].upcase
+# p rebels
