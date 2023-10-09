@@ -44,11 +44,23 @@
 
 # 3. Use variables to store two numbers, then write a condition that prints 1 if the numbers are both less than 10, and prints 0 otherwise.
 
-x = 6
-y = 99
+# x = 6
+# y = 99
 
-if x < 10 && y < 10
-  p 1
+# if x < 10 && y < 10
+#   p 1
+# else
+#   p 0
+# end
+
+# 8. Use a variable to store a number, then write a condition that prints 100 if the number equals 100, prints 99 if the number is equal to 99, and prints 0 otherwise.
+
+x = 77
+
+if x == 100
+  p 100
+elsif x == 99
+  p 99
 else
   p 0
 end
