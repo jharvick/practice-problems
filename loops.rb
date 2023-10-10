@@ -19,11 +19,20 @@
 
 # 10. Write a while loop that prints the even numbers from 2 to 40.
 
-x = 2
+# x = 2
 
-while x < 41
-  if x % 2 == 0
-    p x
-  end
+# while x < 41
+#   if x % 2 == 0
+#     p x
+#   end
+#   x += 1
+# end
+
+# 1. Write a while loop to print the numbers 1 through 10.
+
+x = 1
+
+while x < 11
+  p x
   x += 1
 end
