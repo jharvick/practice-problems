@@ -30,9 +30,18 @@
 
 # 1. Write a while loop to print the numbers 1 through 10.
 
-x = 1
+# x = 1
 
-while x < 11
-  p x
-  x += 1
+# while x < 11
+#   p x
+#   x += 1
+# end
+
+# 2. Write a while loop that prints the word "hello" 5 times.
+
+index = 0
+
+while index < 5
+  p "hello"
+  index += 1
 end
