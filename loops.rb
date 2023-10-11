@@ -39,9 +39,20 @@
 
 # 2. Write a while loop that prints the word "hello" 5 times.
 
+# index = 0
+
+# while index < 5
+#   p "hello"
+#   index += 1
+# end
+
+# 10. Write a while loop that prints the even numbers from 2 to 40.
+
+x = 0
 index = 0
 
-while index < 5
-  p "hello"
-  index += 1
+while index < 40
+  x += 2
+  p x
+  index += 2
 end
