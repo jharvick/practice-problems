@@ -48,11 +48,11 @@
 
 # 10. Write a while loop that prints the even numbers from 2 to 40.
 
-x = 0
-index = 0
+# x = 0
+# index = 0
 
-while index < 40
-  x += 2
-  p x
-  index += 2
-end
+# while index < 40
+#   x += 2
+#   p x
+#   index += 2
+# end
