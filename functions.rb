@@ -16,8 +16,16 @@
 
 # 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
 
-def repeat_word(string)
-  return string * 5
+# def repeat_word(string)
+#   return string * 5
+# end
+
+# p repeat_word("pizza")
+
+# 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
+
+def return_avg(number1, number2, number3)
+  return (number1 + number2 + number3) / 3
 end
 
-p repeat_word("pizza")
+p return_avg(10, 20, 30)
