@@ -60,6 +60,6 @@
 
 # Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
 
-def convert_to_string(number)
-  return number.to_s
-end
+# def convert_to_string(number)
+#   return number.to_s
+# end

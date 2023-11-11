@@ -14,3 +14,12 @@
 
 # rebels[2] = rebels[2].upcase
 # p rebels
+
+# Start with an array of strings and combine them all into a single string. For example, ["volleyball", "basketball", "badminton"] becomes "volleyballbasketballbadminton".
+
+sports = ["volleyball", "basketball", "badminton"]
+word = ""
+sports.each do |sport|
+  word = word + sport
+end
+p word
