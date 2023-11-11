@@ -30,24 +30,30 @@
 
 # p return_avg(10, 20, 30)
 
-x = [1, 2, 4, 3, 9, 7, 0]
-y = [2, 5, 4, 6, 0, 9, 1]
-intersection = []
+# x = [1, 2, 4, 3, 9, 7, 0]
+# y = [2, 5, 4, 6, 0, 9, 1]
+# intersection = []
 
-index = 0
-index2 = 0
-z = 0
+# index = 0
+# index2 = 0
+# z = 0
 
-while index < x.length
-  z = x[index]
-  while index2 < y.length
-    if z == y[index2]
-      intersection << z
-    end
-    index2 += 1
-  end
-  index += 1
-  index2 = 0
+# while index < x.length
+#   z = x[index]
+#   while index2 < y.length
+#     if z == y[index2]
+#       intersection << z
+#     end
+#     index2 += 1
+#   end
+#   index += 1
+#   index2 = 0
+# end
+
+# p intersection
+
+# Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
+
+def string_combiner(string1, string2, string3)
+  return "#{string1} #{string2} #{string3}"
 end
-
-p intersection
